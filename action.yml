@@ -1,0 +1,13 @@
+name: code-spell-checker
+description: Spell check your code
+inputs:
+  files:
+    description: 'Files to lint'
+    required: true
+    default: '**/*.md'
+  token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.mjs'

@@ -1,0 +1,29 @@
+{
+  "name": "markdownlint-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @vercel/ncc build index.mjs --license LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betrybe/markdownlint-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betrybe/markdownlint-action/issues"
+  },
+  "homepage": "https://github.com/betrybe/markdownlint-action#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.1.0"
+  }
+}
